@@ -6,8 +6,8 @@ import {
 } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa";
 import { RiLinkedinFill } from "react-icons/ri";
-import { CiLocationOn } from "react-icons/ci";
-import { BsJournalText } from "react-icons/bs";
+import { BiMap } from "react-icons/bi";
+import { BsJournalText, BsTelephoneOutbound } from "react-icons/bs";
 const Sidebar = () => {
   return (
     <>
@@ -52,8 +52,8 @@ const Sidebar = () => {
           </div>
           <ul className="flex flex-col bg-light-gray dark:bg-mid-dark px-7 py-8 rounded-2xl mt-10">
             <li className="flex items-center gap-6 border-b border-slate-300 py-3">
-              <div className="w-10 h-10 rounded bg-light-gray flex items-center justify-center shadow-md dark:bg-[#111111] hover:hover_active group cursor-pointer">
-                <i className="fa-solid fa-mobile-screen text-pink-600 text-2xl group-hover:text-slate-50"></i>
+              <div className="w-10 h-10 rounded bg-light-gray flex items-center justify-center shadow-md dark:bg-[#111111] text-cyan-500 hover:hover_active group cursor-pointer">
+                <BsTelephoneOutbound />
               </div>
               <div className="flex flex-col dark:text-white">
                 <span className="text-slate-500 text-xs font-bold">Phone</span>
@@ -67,7 +67,7 @@ const Sidebar = () => {
             </li>
             <li className="flex items-center gap-6 border-b border-slate-300 py-3">
               <div className="w-10 h-10 rounded bg-light-gray flex items-center justify-center shadow-md dark:bg-black text-[#6AB5B9] hover:hover_active group cursor-pointer text-xl">
-                <CiLocationOn />
+                <BiMap />
               </div>
               <div className="flex flex-col dark:text-white">
                 <span className="text-slate-500 text-xs font-bold">

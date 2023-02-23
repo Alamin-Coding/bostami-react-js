@@ -20,7 +20,7 @@ module.exports = {
         'mid-dark' : '#1D1D1D',
       },
       backgroundImage: {
-        'image-dark': "url('./public/images/bg-image.jpg')",
+        // 'image-dark': "url('./public/images/bg-image.jpg')",
         'image-light': "url('./public/images/bg-light.jpg')"
       }
     },
