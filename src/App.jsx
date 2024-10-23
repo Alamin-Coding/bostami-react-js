@@ -10,6 +10,7 @@ function App() {
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     backgroundAttachment: 'fixed',
+
   }
   // let bgDark = {
   //   background:  "url('./images/bg-dark.jpg')",

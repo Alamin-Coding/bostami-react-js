@@ -18,7 +18,7 @@ const About = () => {
           </p>
           <p className="text-gray-700 dark:text-slate-500 leading-7 font-medium mt-3">
             My aim is to bring across your message and identity in the most
-            creative way. I created web design for many famous brand companies.
+            creative way. I created web design for many famous brand Creative.
           </p>
 
           <h3 className="text-4xl text-slate-900 dark:text-slate-50 font-semibold pt-6 pb-4">
